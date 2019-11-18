@@ -42,7 +42,7 @@ let Calculator = {
 
 function actionApplyer(a,b){
 
-    if(b.length == 0){return a}
+    if(b.length == 0){return a};
     b.forEach(element => {
         a = element(a)
     });
@@ -53,6 +53,4 @@ function actionApplyer(a,b){
 
 
 
-=======
-aaa
->>>>>>> 10c5bb35140bc9197d7e08135d978d5f22df1cce
+
